@@ -1,0 +1,138 @@
+/*!
+ * Muhammad ZPW
+ * muhammadzpw.github.io
+ * (c) 2016
+ */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url('../fonts/ptsans-reg.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/ptsans-bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url('../fonts/ptsans-it.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url('../fonts/ptsans-bi.woff2') format('woff2');
+}
+b {
+	font-weight: 700;
+}
+/*
+Component
+*/
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.card {
+  position: relative;
+  margin: 0 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.z-depth-0 {
+  box-shadow: none !important;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.z-depth-2 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.z-depth-3 {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+i.fa {
+	font-size: 24px
+}
+
+/*
+GENERAL
+*/
+body {
+	font-family: 'PT Sans'
+}
+main {
+	min-height: 70vh;
+}
+footer {
+	padding: 2em 0;
+}
+
+/*
+COLORS
+*/
+.blue-grey.darken-2 {
+  background-color: #455a64 !important;
+}
+/*
+HELPERS
+*/
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: right;
+}
+img.circle {
+	border: 8px solid #fff;
+	border-radius: 50%;
+}
+.caps {
+	text-transform: uppercase;
+}
+
+/*
+*/
+.head {
+	padding: 2em 0;
+}
+.desc {
+	font-size: 1.5em;
+}
+.bg-head {
+	background: url('../img/globe.png') center 70px no-repeat, url('../img/bg-gr.png') center 210px repeat-x,  #fff;//#009688;
+	width: 100%;
+	height: 400px;
+}
+
+img.avatar {
+	margin-top: -128px;	
+	height: 128px;
+}
+
