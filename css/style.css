@@ -172,9 +172,9 @@ NAVTOP
 #nav-top .nav-side {
 	position: fixed;
 	height: 100%;
-	width: 320px;
+	width: 240px;
 	top: 0;
-	right: -320px;
+	right: -240px;
 	background: rgba(255,255,255,0.8);
 	visibility: hidden;
 }
