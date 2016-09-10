@@ -95,7 +95,7 @@ hr.line {
 	position: relative;
 	height: 3px;
 	background: #000;
-	margin: 1em 0 2em;
+	margin: 1em auto 2em;
 	width: 60px;
 	z-index: -1;
 }
